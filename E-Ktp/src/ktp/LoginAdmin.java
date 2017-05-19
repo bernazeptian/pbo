@@ -108,6 +108,8 @@ public class LoginAdmin extends javax.swing.JFrame {
 
     private void BtnMasukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnMasukActionPerformed
         // TODO add your handling code here:
+        new nikform().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_BtnMasukActionPerformed
 
     /**

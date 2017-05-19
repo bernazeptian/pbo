@@ -47,6 +47,11 @@ public class nikform extends javax.swing.JFrame {
 
         btnCek.setForeground(new java.awt.Color(86, 184, 240));
         btnCek.setText("Cek");
+        btnCek.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCekActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -100,6 +105,12 @@ public class nikform extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCekActionPerformed
+        // TODO add your handling code here:
+        new FormAdmin().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btnCekActionPerformed
 
     /**
      * @param args the command line arguments
