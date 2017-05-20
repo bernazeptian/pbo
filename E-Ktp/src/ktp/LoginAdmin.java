@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package ktp;
-
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  *
  * @author Bernaz Septian
@@ -107,7 +108,10 @@ public class LoginAdmin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BtnMasukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnMasukActionPerformed
-        // TODO add your handling code here:
+        //Scanner scan = new Scanner(System.in);
+        //String verifikasi = scan.next();
+        //boolean temu = false;
+        
         new nikform().setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_BtnMasukActionPerformed
