@@ -11,14 +11,14 @@ import java.util.Scanner;
 
 /**
  *
- * @author Bernaz Septian
+ * @author AR7
  */
-public class FormMaster extends javax.swing.JFrame {
+public class FormMasterWithArrayList extends javax.swing.JFrame {
 
     /**
      * Creates new form FormMaster
      */
-    public FormMaster() {
+    public FormMasterWithArrayList() {
         initComponents();
         
     }
